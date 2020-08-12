@@ -3,7 +3,6 @@ module FancyDance
     def twirl
       "I'm twirling!"
     end
-
   end
 
   module ClassMethods
