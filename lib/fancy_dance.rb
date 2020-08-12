@@ -1,5 +1,5 @@
 module FancyDance #First, we define our FancyDance module
-  module InstanceMethods
+  module InstanceMethods # e define a second module, InstanceMethods
     def twirl
       "I'm twirling!"
     end
