@@ -1,5 +1,5 @@
 module FancyDance #First, we define our FancyDance module
-  module InstanceMethods # e define a second module, InstanceMethods
+  module InstanceMethods # e define a second module, InstanceMethods(twirl, jump etc.)
     def twirl
       "I'm twirling!"
     end
@@ -17,7 +17,7 @@ module FancyDance #First, we define our FancyDance module
     end
   end
 
-  module ClassMethods
+  module ClassMethods  # define a second nested module (nested inside of FancyDance) called ClassMethods
     def metadata
       "This class produces objects that love to dance."
     end
