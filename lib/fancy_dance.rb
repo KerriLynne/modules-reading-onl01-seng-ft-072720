@@ -1,4 +1,4 @@
-module FancyDance
+module FancyDance #First, we define our FancyDance module
   module InstanceMethods
     def twirl
       "I'm twirling!"
