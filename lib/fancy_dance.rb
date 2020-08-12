@@ -18,7 +18,7 @@ module FancyDance #First, we define our FancyDance module
   end
 
   module ClassMethods  # define a second nested module (nested inside of FancyDance) called ClassMethods
-    def metadata
+    def metadata # Inside, we place the metadata method, which we intend to be used as a class method.
       "This class produces objects that love to dance."
     end
 
